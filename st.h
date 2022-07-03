@@ -116,6 +116,8 @@ char *xstrdup(const char *);
 
 int xgetcolor(int x, unsigned char *r, unsigned char *g, unsigned char *b);
 
+void openUrlOnClick(int, int, char *);
+
 /* config.h globals */
 extern char *utmp;
 extern char *scroll;
